@@ -101,3 +101,23 @@
 	<stdio.h>
 	<stdlib.h>
 
+1416449232 source:c:\users\hector aguilar\documents\github\tarea4\evaluador.cpp
+	"Evaluador.h"
+
+1416449232 c:\users\hector aguilar\documents\github\tarea4\evaluador.h
+	"NodoArbolBinario.h"
+	<iostream>
+
+1416449232 c:\users\hector aguilar\documents\github\tarea4\nodoarbolbinario.h
+
+1416449232 source:c:\users\hector aguilar\documents\github\tarea4\nodoarbolbinario.cpp
+	"NodoArbolBinario.h"
+
+1417468142 source:c:\users\hector aguilar\documents\github\tarea4\main.cpp
+	"NodoArbolBinario.h"
+	"Evaluador.h"
+	<iostream>
+	<list>
+	<stdio.h>
+	<stdlib.h>
+

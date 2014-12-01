@@ -64,7 +64,7 @@ int cuantosPasos(NodoArbolBinario* raiz,int num)
 bool esAVL(NodoArbolBinario* raiz)
 {
 
-    if(raiz==NULL)  //Si la Raiz o el nodo cuando se llama de nuevo SUMA es NULA retorna 0 y para el programa
+    if(raiz==NULL)  //Si la Raiz o el nodo cuando se llama de nuevo SUMA es NULA retorna true y para el programa
     return true;
 
  // int cont =0;
@@ -78,8 +78,8 @@ bool esAVL(NodoArbolBinario* raiz)
   }*/
 
   if(raiz->hijo_izq !=NULL && raiz->hijo_izq->num>raiz->num || raiz->hijo_der!=NULL && raiz->hijo_der->num<raiz->num) //si el hijo de la raiz izquierda es mayor a la raiz o el hijo de la derecha es menor se termina la funcion.
-                                                                                                                      //Porque ya no es un arbol AVL.
-  return false;
+    return false;                                                                                                                    //Porque ya no es un arbol AVL.
+
 
   return esAVL(raiz->hijo_izq)&& esAVL(raiz->hijo_der);//LLamada recursiva para buscar lo que sigue.
 }
